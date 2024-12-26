@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import Video from './Video';
 import './Room.css';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://videocall-viic.onrender.com');
 
 function Room({ roomId }) {
     const [myStream, setMyStream] = useState(null);

@@ -1,0 +1,17 @@
+.room {
+    text-align: center;
+    padding: 20px;
+}
+.remote-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.remote-videos video{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    background-color: #141414;
+}
